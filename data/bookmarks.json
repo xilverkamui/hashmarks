@@ -1,0 +1,81 @@
+{
+  "categories": {
+    "category_1": {
+      "name": "work",
+      "bookmark_ids": [
+        "bookmark_1",
+        "bookmark_2"
+      ]
+    },
+    "category_2": {
+      "name": "family",
+      "bookmark_ids": [
+        "bookmark_3"
+      ]
+    }
+  },
+
+  "tags": {
+    "tag_1": {
+      "name": "data",
+      "bookmark_ids": [
+        "bookmark_1",
+        "bookmark_2"
+      ]
+    },
+    "tag_2": {
+      "name": "viz",
+      "bookmark_ids": [
+        "bookmark_1"
+      ]
+    },
+    "tag_3": {
+      "name": "cloud",
+      "bookmark_ids": [
+        "bookmark_3"
+      ]
+    }
+  },
+
+  "bookmarks": {
+    "bookmark_1": {
+      "title": "Plotly Documentation",
+      "url": "https://plotly.com",
+      "domain": "plotly.com",
+      "created": "2024-05-10T10:22:00Z",
+      "category_ids": [
+        "category_1"
+      ],
+      "tag_ids": [
+        "tag_1",
+        "tag_2"
+      ]
+    },
+
+    "bookmark_2": {
+      "title": "Kaggle Datasets",
+      "url": "https://kaggle.com",
+      "domain": "kaggle.com",
+      "created": "2024-05-11T08:15:00Z",
+      "category_ids": [
+        "category_1"
+      ],
+      "tag_ids": [
+        "tag_1"
+      ]
+    },
+
+    "bookmark_3": {
+      "title": "Google Photos",
+      "url": "https://photos.google.com",
+      "domain": "photos.google.com",
+      "created": null,
+      "category_ids": [
+        "category_2"
+      ],
+      "tag_ids": [
+        "tag_3"
+      ]
+    }
+  }
+}
